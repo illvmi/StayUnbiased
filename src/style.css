@@ -1,0 +1,58 @@
+/* Set a clean white background and readable font */
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Style the sidebar */
+.css-1d391kg, .css-1vq4p4l {
+    background-color: #e6f2ff !important;
+}
+
+/* Headings */
+h1, h2, h3, .stTitle {
+    color: #0077cc !important;
+}
+
+/* Button styles */
+.stButton > button {
+    background-color: #0077cc;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #005fa3;
+}
+
+/* Text input and text area */
+.stTextInput > div > div > input,
+.stTextArea > div > textarea {
+    border: 1px solid #0077cc;
+    border-radius: 6px;
+}
+
+/* Subheaders inside the app */
+.stMarkdown h2, .stMarkdown h3 {
+    color: #005fa3;
+}
+
+/* Expander styling */
+.stExpanderHeader {
+    font-weight: bold;
+    color: #0077cc;
+}
+
+/* Credibility/Result area cards */
+div[data-testid="stMarkdownContainer"] > div > h3 {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e6f2ff;
+    border-left: 5px solid #0077cc;
+    border-radius: 5px;
+}
